@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @number.number %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @number.name %>
+</p>
+
+<p>
+  <strong>When:</strong>
+  <%= @number.when %>
+</p>
+
+<%= link_to 'Edit', edit_number_path(@number) %> |
+<%= link_to 'Back', numbers_path %>
