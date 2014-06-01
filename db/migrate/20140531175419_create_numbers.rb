@@ -2,7 +2,7 @@ class CreateNumbers < ActiveRecord::Migration
   def change
     create_table :numbers do |t|
       t.integer :number
-      t.string :name
+      t.string :user
       t.date :when
 
       t.timestamps
